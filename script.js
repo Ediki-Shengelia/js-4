@@ -58,6 +58,12 @@ let array7 = [15, 100, 25, 10, 36];
 
 array7.splice(-2, 1);
 console.log(array7);
+//12.
+
+let array1 = ["hello1", 14, 24, "hello2"];
+
+let result = array1.filter((x) => typeof x == "number");
+console.log(result);
 
 //14.
 
@@ -73,7 +79,7 @@ let words = ["Madrid", "rome", "Milan", "berlin"];
 let resultwords = words.filter((x) => x.includes("M") || x.includes("m"));
 console.log(resultwords);
 
-//16.
+//17.
 
 let array6 = [-1, -2, -3, 4].some(function (item) {
   return item > 0;
